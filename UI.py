@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'UI.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, Window):
+        Window.setWindowTitle("Кружочки")
+        Window.resize(400, 400)
+        self.add_circle = QtWidgets.QPushButton("Кружочек", self)
+        self.add_circle.setGeometry(QtCore.QRect(125, 170, 150, 30))
